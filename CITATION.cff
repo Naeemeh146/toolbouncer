@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "toolbouncer: a bouncer at the door between an agent and its tools"
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "Naeemeh Yadollahpour"
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/Naeemeh146/toolbouncer"
+abstract: >-
+  Call-time security enforcement for LLM agent tool use: allowlists,
+  tool-description fingerprinting (rug-pull detection), least-privilege
+  scopes, argument rules, and Rule-of-Two / lethal-trifecta egress
+  control, with a full audit log and a bundled 20-scenario attack suite.
+keywords:
+  - llm-agents
+  - mcp
+  - tool-use-security
+  - prompt-injection
+  - guardrails
